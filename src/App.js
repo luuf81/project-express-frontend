@@ -100,10 +100,6 @@ export const App = () => {
           rowsPerPageOptions={[10, 25, 100]}
           component="div"
           count={shows.length}
-          // rowsPerPage={rowsPerPage}
-          // page={page}
-          // onChangePage={handleChangePage}
-          // onChangeRowsPerPage={handleChangeRowsPerPage}
         />
       </Paper>
     </ThemeProvider>
